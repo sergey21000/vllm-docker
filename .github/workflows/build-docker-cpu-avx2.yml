@@ -31,7 +31,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: vllm/docker/Dockerfile.cpu
+          file: docker/Dockerfile.cpu
           push: true
           pull: true
           platforms: linux/amd64
